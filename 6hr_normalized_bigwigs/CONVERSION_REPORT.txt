@@ -1,0 +1,58 @@
+Bedgraph to Bigwig Conversion Report
+Generated: Thu Nov 13 12:49:17 EST 2025
+
+═════════════════════════════════════════════════════════════════════════════
+
+CONVERSION SUMMARY
+─────────────────────────────────────────────────────────────────────────────
+Source: MACS2 CPM-normalized bedgraph files
+Output format: BigWig (binary, indexed)
+
+6-HOUR CONDITION
+─────────────────────────────────────────────────────────────────────────────
+Source directory: /scratch/chiappinellilab/processed_data/Trace/CUTnRUN/Epi-PTT/six_hour/macs2_peaks_normalized/bedgraphs
+Output directory: /scratch/chiappinellilab/processed_data/Trace/CUTnRUN/Epi-PTT/six_hour/normalized_bigwigs
+Successful conversions: 0
+Failed conversions: 16
+Total bigwig files: 0
+
+10-MINUTE CONDITION
+─────────────────────────────────────────────────────────────────────────────
+Source directory: /scratch/chiappinellilab/processed_data/Trace/CUTnRUN/Epi-PTT/ten_minute/macs2_peaks_normalized/bedgraphs
+Output directory: /scratch/chiappinellilab/processed_data/Trace/CUTnRUN/Epi-PTT/ten_minute/normalized_bigwigs
+Successful conversions: 0
+Failed conversions: 8
+Total bigwig files: 0
+
+FILES GENERATED - 6 HOUR
+─────────────────────────────────────────────────────────────────────────────
+
+FILES GENERATED - 10 MINUTE
+─────────────────────────────────────────────────────────────────────────────
+
+NEXT STEPS
+─────────────────────────────────────────────────────────────────────────────
+1. Verify all bigwig files were created successfully
+2. Run the computeMatrix script to generate replicate-level matrices:
+   - Uses bigwig files as input
+   - Generates matrices for deeptools visualization
+   
+3. Run deeptools visualization script:
+   - Uses replicate-level matrices as input
+   - Generates profile plots and heatmaps
+
+CHROMOSOME SIZES FILE USED
+─────────────────────────────────────────────────────────────────────────────
+/SMHS/groups/chiappinellilab/genomes/hg38/chromSizes.hg38.txt
+
+TOOL INFORMATION
+─────────────────────────────────────────────────────────────────────────────
+bedGraphToBigWig: Converts sorted bedgraph files to binary bigwig format
+- Input: Sorted bedgraph file (chr, start, end, value)
+- Output: Indexed bigwig file (binary, random-access capable)
+- Advantages: Smaller file size, faster access for computeMatrix
+
+COMPLETION
+─────────────────────────────────────────────────────────────────────────────
+Total conversion time: Thu Nov 13 12:49:17 EST 2025
+Status: Complete
