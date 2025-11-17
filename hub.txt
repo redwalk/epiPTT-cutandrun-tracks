@@ -1,0 +1,5 @@
+hub CUTandRUN_H3K9ac
+shortLabel H3K9ac CUT&RUN
+longLabel H3K9ac CUT&RUN Sequencing - Multiple Cell Lines
+genomesFile genomes.txt
+email user@example.com
