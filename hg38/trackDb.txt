@@ -1,1 +1,167 @@
+compositeTrack on
+shortLabel H3K9ac Tracks
+longLabel H3K9ac CUT&RUN by Cell Line
 
+	track A2780_group
+	container multiWig
+	shortLabel A2780
+	longLabel A2780 Cell Line
+	type bigWig
+	visibility full
+	maxHeightPixels 100:50:8
+	windowingFunction mean
+	
+		track A2780_PBO_10min
+		parent A2780_group
+		shortLabel A2780 PBO 10min
+		longLabel A2780 - Control (PBO) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/A2780_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track A2780_PBO_6hr
+		parent A2780_group
+		shortLabel A2780 PBO 6hr
+		longLabel A2780 - Control (PBO) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/A2780_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track A2780_1W_10min
+		parent A2780_group
+		shortLabel A2780 1W 10min
+		longLabel A2780 - Treatment (1W) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/A2780_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+		
+		track A2780_1W_6hr
+		parent A2780_group
+		shortLabel A2780 1W 6hr
+		longLabel A2780 - Treatment (1W) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/A2780_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+
+	track Hey_group
+	container multiWig
+	shortLabel Hey
+	longLabel Hey Cell Line
+	type bigWig
+	visibility full
+	maxHeightPixels 100:50:8
+	windowingFunction mean
+	
+		track Hey_PBO_10min
+		parent Hey_group
+		shortLabel Hey PBO 10min
+		longLabel Hey - Control (PBO) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/Hey_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track Hey_PBO_6hr
+		parent Hey_group
+		shortLabel Hey PBO 6hr
+		longLabel Hey - Control (PBO) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/Hey_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track Hey_1W_10min
+		parent Hey_group
+		shortLabel Hey 1W 10min
+		longLabel Hey - Treatment (1W) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/Hey_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+		
+		track Hey_1W_6hr
+		parent Hey_group
+		shortLabel Hey 1W 6hr
+		longLabel Hey - Treatment (1W) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/Hey_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+
+	track HH23_group
+	container multiWig
+	shortLabel HH23
+	longLabel HH23 Cell Line
+	type bigWig
+	visibility full
+	maxHeightPixels 100:50:8
+	windowingFunction mean
+	
+		track HH23_PBO_10min
+		parent HH23_group
+		shortLabel HH23 PBO 10min
+		longLabel HH23 - Control (PBO) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/HH23_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track HH23_PBO_6hr
+		parent HH23_group
+		shortLabel HH23 PBO 6hr
+		longLabel HH23 - Control (PBO) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/HH23_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track HH23_1W_10min
+		parent HH23_group
+		shortLabel HH23 1W 10min
+		longLabel HH23 - Treatment (1W) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/HH23_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+		
+		track HH23_1W_6hr
+		parent HH23_group
+		shortLabel HH23 1W 6hr
+		longLabel HH23 - Treatment (1W) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/HH23_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+
+	track Tyknu_group
+	container multiWig
+	shortLabel Tyknu
+	longLabel Tyknu Cell Line
+	type bigWig
+	visibility full
+	maxHeightPixels 100:50:8
+	windowingFunction mean
+	
+		track Tyknu_PBO_10min
+		parent Tyknu_group
+		shortLabel Tyknu PBO 10min
+		longLabel Tyknu - Control (PBO) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/Tyknu_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track Tyknu_PBO_6hr
+		parent Tyknu_group
+		shortLabel Tyknu PBO 6hr
+		longLabel Tyknu - Control (PBO) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/Tyknu_PBO_H3K9ac.bw
+		type bigWig
+		color 100,100,100
+		
+		track Tyknu_1W_10min
+		parent Tyknu_group
+		shortLabel Tyknu 1W 10min
+		longLabel Tyknu - Treatment (1W) - 10 minutes
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/Tyknu_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
+		
+		track Tyknu_1W_6hr
+		parent Tyknu_group
+		shortLabel Tyknu 1W 6hr
+		longLabel Tyknu - Treatment (1W) - 6 hours
+		bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/6hr_normalized_bigwigs/Tyknu_1W_H3K9ac.bw
+		type bigWig
+		color 0,100,200
