@@ -11,6 +11,7 @@ type bigWig
 visibility full
 maxHeightPixels 100:50:8
 windowingFunction mean
+yLineMark 0
 
 	track A2780_PBO_6hr
 	parent A2780_group
@@ -32,9 +33,9 @@ windowingFunction mean
 
 track spacer1
 shortLabel 
-longLabel 
 type bed
 visibility hide
+maxHeightPixels 10:10:0
 
 track Hey_group
 container multiWig
@@ -44,6 +45,7 @@ type bigWig
 visibility full
 maxHeightPixels 100:50:8
 windowingFunction mean
+yLineMark 0
 
 	track Hey_PBO_6hr
 	parent Hey_group
@@ -65,9 +67,9 @@ windowingFunction mean
 
 track spacer2
 shortLabel 
-longLabel 
 type bed
 visibility hide
+maxHeightPixels 10:10:0
 
 track HH23_group
 container multiWig
@@ -77,6 +79,7 @@ type bigWig
 visibility full
 maxHeightPixels 100:50:8
 windowingFunction mean
+yLineMark 0
 
 	track HH23_PBO_6hr
 	parent HH23_group
@@ -98,9 +101,9 @@ windowingFunction mean
 
 track spacer3
 shortLabel 
-longLabel 
 type bed
 visibility hide
+maxHeightPixels 10:10:0
 
 track Tyknu_group
 container multiWig
@@ -110,6 +113,7 @@ type bigWig
 visibility full
 maxHeightPixels 100:50:8
 windowingFunction mean
+yLineMark 0
 
 	track Tyknu_PBO_6hr
 	parent Tyknu_group
