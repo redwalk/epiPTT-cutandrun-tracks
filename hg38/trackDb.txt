@@ -1,0 +1,20 @@
+compositeTrack on
+shortLabel H3K9ac Tracks
+longLabel H3K9ac CUT&RUN by Cell Line
+
+track A2780_group
+container multiWig
+shortLabel A2780
+longLabel A2780 Cell Line
+type bigWig
+visibility full
+maxHeightPixels 100:50:8
+windowingFunction mean
+
+	track A2780_PBO_10min
+	parent A2780_group
+	shortLabel A2780 PBO 10min
+	longLabel A2780 - Control (PBO) - 10 minutes
+	bigDataUrl https://raw.githubusercontent.com/redwalk/epiPTT-cutandrun-tracks/main/10min_normalized_bigwigs/A2780_PBO_H3K9ac.bw
+	type bigWig
+	color 100,100,100
