@@ -1,5 +1,5 @@
-# epiPTT-cutandrun-tracks
-I am attempting to upload H3K9ac CUT&RUN-sequencing bigwigs to UCSC genome browser. Let's see how this goes.
+# Genome-wide histone acetylation underlies tumor intrinsic immune signaling in response to photothermal therapy in ovarian cancer
+This page has processing code for projects related to studying H3K9ac CUT&RUN-sequencing. 
 
 **Cell Lines**
 1. A2780
